@@ -1,0 +1,21 @@
+  int[] arr = new int[20];
+      for ( int index  = 0; index < arr.length; index++){
+       arr[index] = index + 1;
+          System.out.println(arr[index]);
+      }
+
+        System.out.println("enter class size");
+      int input = s.nextInt();
+      int[] tt = new int[input];
+      for (int index = 0; index < tt.length; index++) {
+          System.out.println(String.format("please enter grad #%d", index + 1));
+          tt[index] = s.nextInt();
+      }
+          int sum = 0;
+          for (int index1 = 0; index1 < tt.length; index1++)
+          {
+              sum =sum + tt[index1];
+
+          }
+float avg = sum / tt.length;
+        System.out.println(avg);
