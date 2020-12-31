@@ -1,0 +1,28 @@
+package com.company;
+
+import java.lang.module.FindException;
+import java.util.Random;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        Random r = new Random();
+
+/*
+. create an array of 5 Strings (hint: String[] word = new String[5])
+            create a for loop and input words from the user into the array
+            now print the array in a for loop */
+
+String[] word = new String[5];
+
+for ( int index = 0; index < word.length; index++){
+    String mila = s.next();
+    word[index] = mila;
+}
+        for ( int index = 0; index < word.length; index++){
+            System.out.println(word[index]);
+        }
+
+        
